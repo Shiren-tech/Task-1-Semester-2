@@ -1,0 +1,12 @@
+discount = float(input("Enter The Item Price: "))
+
+if discount >= 100000:
+    diskon = 10
+else:
+    diskon = 0
+    
+jumlah_diskon = (diskon/100) * discount
+hasil_akhir = discount - jumlah_diskon
+
+print("Diskon Total: ", jumlah_diskon)
+print("Total display payment", hasil_akhir)
